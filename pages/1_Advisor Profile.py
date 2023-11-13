@@ -28,5 +28,5 @@ with col22:
 
 st.button('Submit')
 
-st.chat_message("Do you have any general advising questions?")
+st.chat_message("Do you have any questions about your profile?")
 st.chat_input()

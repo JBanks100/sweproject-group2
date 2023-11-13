@@ -18,3 +18,6 @@ with col2:
     st.selectbox("Classification",['Select one','Freshman','Sophomore','Junior','Senior'])
 st.multiselect("Course Preferences",['Psychology','Sociology','Biology','Chemistry'])
 st.button('Submit')
+
+st.chat_message("Do you have any general advising questions?")
+st.chat_input()
